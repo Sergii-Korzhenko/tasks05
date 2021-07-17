@@ -6,7 +6,7 @@ public class Employee {
         String name = "Ivan";
         int hour = 135;
         String position = "водитель";
-
+        int id = 314;
     }
 
     public static double getSalary(double tarif, int hour) {
