@@ -5,6 +5,7 @@ public class Employee {
         double tarif = 5.85;
         String name = "Ivan";
         int hour = 135;
+        String position = "водитель";
 
     }
 
