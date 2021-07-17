@@ -6,6 +6,11 @@ public class Employee {
         String name = "Ivan";
         int hour = 135;
         System.out.println(getBonus(tarif, hour));
+        String position = "водитель";
+
+        System.out.println("Имя: " + name + "Должность: " + position
+                +"\n Зарплата: " + getSalary(tarif, hour) );
+        int id = 314;
     }
 
     public static double getSalary(double tarif, int hour) {
