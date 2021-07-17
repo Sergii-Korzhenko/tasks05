@@ -5,6 +5,7 @@ public class Employee {
         double tarif = 15.85;
         String name = "Ivan";
         int hour = 135;
+        System.out.println(getBonus(tarif, hour));
     }
 
     public static double getSalary(double tarif, int hour) {
