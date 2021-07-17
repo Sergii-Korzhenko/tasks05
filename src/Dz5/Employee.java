@@ -9,6 +9,7 @@ public class Employee {
 
         System.out.println("Имя: " + name + "Должность: " + position
                 +"\n Зарплата: " + getSalary(tarif, hour) );
+        int id = 314;
     }
 
     public static double getSalary(double tarif, int hour) {
