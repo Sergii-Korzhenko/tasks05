@@ -7,6 +7,8 @@ public class Employee {
         int hour = 135;
         String position = "водитель";
 
+        System.out.println("Имя: " + name + "Должность: " + position
+                +"\n Зарплата: " + getSalary(tarif, hour) );
     }
 
     public static double getSalary(double tarif, int hour) {
